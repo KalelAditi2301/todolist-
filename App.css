@@ -1,0 +1,91 @@
+.Todo-list-container{
+    display: flex;
+    background: rgba(50, 185, 190, 0.614);
+    margin: 5rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60rem;
+    border : 1px solid rgb(12, 10, 10);
+    min-width: 50rem;
+    border-radius: 1.5rem;
+}
+
+.todo-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 2rem;
+    margin: 3rem;
+}
+
+.todo-btn{
+    border: 1px solid rgb(219, 228, 59);
+    border-radius: 1.5rem;
+    height: 5rem;
+    width: 5rem;
+    background: rgba(37, 220, 150, 0.731);
+}
+
+.todo-btn:hover{
+    height: 6rem;
+    width: 6rem;
+}
+
+input{
+    margin: 0;
+    padding: 0;
+    border-radius: 1.5rem;
+}
+
+.todo-form input{
+    font-size: 3.5rem;
+}
+
+
+
+.todo-form button{
+    border: 0;
+    background-color: rgb(39, 26, 217);
+}
+
+#imp{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    border: 1px dotted rgb(19, 18, 18);
+    border-radius: 1.5rem;
+    background: rgb(188, 175, 182);
+    color: rgb(245, 14, 14);
+    font-family: "Trirong", serif;
+}
+
+.tick{
+    background: rgb(189, 210, 66);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.tick:hover{
+    background: rgba(217, 55, 136, 0.712);
+}
+
+.todo-text{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
